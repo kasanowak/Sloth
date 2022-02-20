@@ -1,0 +1,24 @@
+{
+  "name": "Sloth",
+  "source": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@parcel/transformer-sass": "2.3.2",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-svelte": "^4.0.9",
+    "parcel-transformer-svelte": "^1.2.3"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "svelte": "^3.46.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  }
+}
